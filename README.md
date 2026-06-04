@@ -1,4 +1,6 @@
 📅 Schedulify – Automatic Timetable Generator for Educational Institutions
+
+
 📌 Overview
 Schedulify is a web-based automatic timetable generation system designed for educational institutions.
 The system automates the timetable creation process by considering multiple real-world scheduling constraints such as teacher availability, subject allocation, room availability, workload limits, and class schedules.
