@@ -1,71 +1,99 @@
-📅 Schedulify – Automatic Timetable Generator for Educational Institutions
+# 📅 Schedulify – Automatic Timetable Generator
 
+---
 
-📌 Overview
+## 🚀 Banner
 
-Schedulify is a web-based automatic timetable generation system designed for educational institutions.
-The system automates the timetable creation process by considering multiple real-world scheduling constraints such as teacher availability, subject allocation, room availability, workload limits, and class schedules.
+> Smart Timetable Generation System for Educational Institutions
 
-The main goal of this project is to reduce manual effort, eliminate scheduling conflicts, and improve the efficiency of timetable management.
+---
 
-🎯 Objectives
+## 🏷️ Badges
 
-Automate timetable generation
-Minimize scheduling conflicts
-Reduce manual workload for administrators
-Optimize teacher and classroom allocation
-Provide an easy-to-use interface for timetable management
+![Status](https://img.shields.io/badge/Status-Completed-green)
+![Frontend](https://img.shields.io/badge/Frontend-React.js-blue)
+![Backend](https://img.shields.io/badge/Backend-Node.js-green)
+![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen)
+![License](https://img.shields.io/badge/License-Academic-lightgrey)
 
+---
 
-🚀 Features
+## 📌 Overview
 
-👨‍🏫 Management Modules
+**Schedulify** is a full-stack web application designed to automatically generate conflict-free timetables for educational institutions.
 
-Teacher Management
-Subject Management
-Classroom / Lab Management
-Batch & Division Management
+It considers multiple real-world constraints such as:
+- Teacher availability  
+- Subject allocation  
+- Classroom capacity  
+- Batch and division scheduling  
+- Workload balancing  
 
+👉 The goal is to **eliminate manual scheduling effort and reduce conflicts efficiently**.
 
-⚙️ Core System Features
+---
 
-Automatic Timetable Generation
-Conflict Detection & Resolution
-Timetable Viewing & Management
-Database Storage and Retrieval
-User-Friendly Interface
+## 🎯 Objectives
 
+- Automate timetable generation  
+- Reduce scheduling conflicts  
+- Optimize teacher and classroom usage  
+- Minimize administrative workload  
+- Provide an intuitive dashboard  
 
-🛠️ Tech Stack
+---
 
-🎨 Frontend
-React.js
-HTML5
-CSS3
-JavaScript
+## 🚀 Features
 
-⚙️ Backend
-Node.js
-Express.js
+### 👨‍🏫 Management Modules
+- Teacher Management  
+- Subject Management  
+- Classroom / Lab Management  
+- Batch & Division Management  
 
-🗄️ Database
-MongoDB
-Mongoose
+### ⚙️ Core System
+- Automatic Timetable Generation  
+- Conflict Detection & Resolution  
+- Timetable Viewer Interface  
+- MongoDB Data Storage  
+- Efficient Scheduling Logic  
 
-🧰 Tools & Platforms
-MongoDB Compass
-VS Code
-Git & GitHub
+---
 
+## 🛠️ Tech Stack
 
-📊 Database Collections
-👨‍🏫 Teachers
+### 🎨 Frontend
+- React.js  
+- HTML5  
+- CSS3  
+- JavaScript  
+
+### ⚙️ Backend
+- Node.js  
+- Express.js  
+
+### 🗄️ Database
+- MongoDB  
+- Mongoose  
+
+### 🧰 Tools
+- Git & GitHub  
+- VS Code  
+- MongoDB Compass  
+
+---
+
+## 📊 Database Structure
+
+### 👨‍🏫 Teachers
+```json
 {
   "teacherId": "T001",
   "name": "John Doe",
   "subject": "Database Management",
   "maxLectures": 20
 }
+
 📚 Subjects
 {
   "subjectId": "S001",
@@ -87,57 +115,30 @@ Git & GitHub
   "room": "R101"
 }
 
-
-🔒 Constraints Considered
-
-1️⃣ Hard Constraints
-No teacher overlap
-No classroom overlap
-One lecture per class per slot
-Teacher workload limits
-Room capacity constraints
-
-2️⃣ Soft Constraints
-Teacher preferences
-Balanced workload distribution
-Avoid consecutive lectures
-Preferred classroom allocation
-
-
 🔄 System Workflow
-Admin enters teacher, subject, room, and batch details
+Admin inputs teachers, subjects, rooms, and batches
 Data is stored in MongoDB
-Timetable generation algorithm processes constraints
+Scheduling algorithm processes constraints
 Conflict-free timetable is generated
-Timetable is displayed and managed by the administrator
-
-
-⚙️ Installation & Setup
-📥 Clone Repository
-git clone <repository-url>
-🖥️ Backend Setup
-cd backend
-npm install
-node server.js
-🌐 Frontend Setup
-cd frontend
-npm install
-npm start
+Admin views and manages timetable
 
 
 📈 Future Enhancements
-Genetic Algorithm-based optimization
-AI-powered timetable recommendations
-Faculty preference management
-Timetable export to PDF/Excel
+AI-powered timetable optimization
+Genetic algorithm-based scheduling
 Mobile application support
-Multi-campus timetable management
+PDF/Excel export feature
+Multi-campus support
 
+📊 GitHub Stats
+
+Replace YOUR_GITHUB_USERNAME with your GitHub username
 
 👨‍💻 Author
-Pratham H. Shetty
-Major Project – Final Year Engineering
 
+Pratham H. Shetty
+Final Year Engineering Student
 
 📄 License
-This project is developed for academic and educational purposes only.
+
+This project is for academic and educational purposes only.
