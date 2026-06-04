@@ -64,9 +64,9 @@ The system eliminates manual scheduling by intelligently handling constraints li
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shettypratham1005-dev&show_icons=true&theme=tokyonight)
+(https://github-readme-stats.vercel.app/api?username=shettypratham1005-dev&show_icons=true&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shettypratham1005-dev&layout=compact&theme=tokyonight)
+(https://github-readme-stats.vercel.app/api/top-langs/?username=shettypratham1005-dev&layout=compact&theme=tokyonight)
 
 ---
 
