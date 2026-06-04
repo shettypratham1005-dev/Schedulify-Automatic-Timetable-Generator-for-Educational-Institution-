@@ -40,21 +40,7 @@ MongoDB Compass
 VS Code
 Git & GitHub
 
-📂 Project Structure
-Schedulify/
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-│
-├── README.md
-│
-└── package.json
+
 📊 Database Collections
 Teachers
 {
