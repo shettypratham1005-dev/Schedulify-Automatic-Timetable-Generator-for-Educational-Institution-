@@ -1,117 +1,95 @@
-# 📅 Schedulify – Automatic Timetable Generator
+# 📅 Schedulify – Automatic Timetable Generator for Educational Institutions
 
 ---
 
-## 🚀 Banner
+## 🚀 Overview
 
-> Smart Timetable Generation System for Educational Institutions
+**Schedulify** is a full-stack web application designed to automatically generate **conflict-free timetables** for educational institutions.
 
----
+The system eliminates manual scheduling by intelligently handling constraints like teacher availability, subject allocation, room capacity, batch scheduling, and workload balancing.
 
-## 🏷️ Badges
-
-![Status](https://img.shields.io/badge/Status-Completed-green)
-![Frontend](https://img.shields.io/badge/Frontend-React.js-blue)
-![Backend](https://img.shields.io/badge/Backend-Node.js-green)
-![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen)
-![License](https://img.shields.io/badge/License-Academic-lightgrey)
-
----
-
-## 📌 Overview
-
-**Schedulify** is a full-stack web application designed to automatically generate conflict-free timetables for educational institutions.
-
-It considers multiple real-world constraints such as:
-- Teacher availability  
-- Subject allocation  
-- Classroom capacity  
-- Batch and division scheduling  
-- Workload balancing  
-
-👉 The goal is to **eliminate manual scheduling effort and reduce conflicts efficiently**.
+👉 The main goal is to **automate timetable creation, reduce scheduling conflicts, and improve administrative efficiency**.
 
 ---
 
 ## 🎯 Objectives
 
 - Automate timetable generation  
-- Reduce scheduling conflicts  
-- Optimize teacher and classroom usage  
-- Minimize administrative workload  
-- Provide an intuitive dashboard  
+- Eliminate scheduling conflicts  
+- Optimize teacher and classroom allocation  
+- Reduce manual workload for administrators  
+- Provide an intuitive and user-friendly interface  
 
 ---
 
 ## 🚀 Features
 
-### 👨‍🏫 Management Modules
-- Teacher Management  
-- Subject Management  
-- Classroom / Lab Management  
-- Batch & Division Management  
-
-### ⚙️ Core System
-- Automatic Timetable Generation  
-- Conflict Detection & Resolution  
-- Timetable Viewer Interface  
-- MongoDB Data Storage  
-- Efficient Scheduling Logic  
+- 👨‍🏫 Teacher, subject, classroom, and batch management  
+- ⚙️ Automatic timetable generation using constraint-based logic  
+- ❌ Conflict detection and resolution  
+- 📅 Timetable viewing and management dashboard  
+- 🗄️ MongoDB-based data storage and retrieval  
+- 📊 Efficient scheduling system  
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🎨 Frontend
-- React.js  
-- HTML5  
-- CSS3  
-- JavaScript  
-
-### ⚙️ Backend
-- Node.js  
-- Express.js  
-
-### 🗄️ Database
-- MongoDB  
-- Mongoose  
-
-### 🧰 Tools
-- Git & GitHub  
-- VS Code  
-- MongoDB Compass  
+**Frontend:** React.js, HTML5, CSS3, JavaScript  
+**Backend:** Node.js, Express.js  
+**Database:** MongoDB, Mongoose  
+**Tools:** Git, GitHub, VS Code, MongoDB Compass  
 
 ---
 
-## 📊 Database Structure
+## 🔄 System Workflow
 
-### 👨‍🏫 Teachers
-```json
-{
-  "teacherId": "T001",
-  "name": "John Doe",
-  "subject": "Database Management",
-  "maxLectures": 20
-}
+- Admin enters all required data (teachers, subjects, rooms, batches)  
+- Data is stored in MongoDB  
+- Scheduling algorithm processes all constraints  
+- Conflict-free timetable is generated automatically  
+- Admin views and manages final timetable  
 
-📚 Subjects
-{
-  "subjectId": "S001",
-  "subjectName": "DBMS",
-  "credits": 4
-}
-🏫 Rooms
-{
-  "roomId": "R101",
-  "capacity": 60,
-  "type": "Classroom"
-}
-📅 Timetable
-{
-  "day": "Monday",
-  "slot": "09:00-10:00",
-  "teacher": "T001",
-  "subject": "S001",
-  "room": "R101"
-}
+---
 
+## 📈 Future Enhancements
+
+- AI-powered timetable optimization  
+- Genetic algorithm-based scheduling  
+- Mobile application support  
+- PDF/Excel export feature  
+- Multi-campus timetable system  
+
+---
+
+## 📊 GitHub Stats
+
+> Replace github.com/shettypratham1005-dev with your GitHub username
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=github.com/shettypratham1005-dev&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=github.com/shettypratham1005-dev&layout=compact&theme=tokyonight)
+
+---
+
+## 👨‍💻 Author
+
+**Pratham H. Shetty**  
+Final Year Engineering Student  
+
+---
+
+## 📄 License
+
+This project is developed for **academic and educational purposes only**.
+
+---
+
+## ⭐ Support
+
+If you like this project:
+- ⭐ Star the repository  
+- 🍴 Fork it  
+- 🚀 Share it  
+
+---
