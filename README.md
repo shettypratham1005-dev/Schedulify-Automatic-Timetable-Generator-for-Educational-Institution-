@@ -62,11 +62,9 @@ The system eliminates manual scheduling by intelligently handling constraints li
 
 ---
 
-## 📊 GitHub Stats
+## 🌐 Project Status
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shettypratham1005-dev&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shettypratham1005-dev&layout=compact&theme=tokyonight)
+🚧 This project is currently running locally and has not been deployed yet.
 ---
 
 ## 👨‍💻 Author
