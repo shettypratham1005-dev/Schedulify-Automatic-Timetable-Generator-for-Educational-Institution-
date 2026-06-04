@@ -65,6 +65,7 @@ The system eliminates manual scheduling by intelligently handling constraints li
 ## 🌐 Project Status
 
 🚧 This project is currently running locally and has not been deployed yet.
+
 ---
 
 ## 👨‍💻 Author
