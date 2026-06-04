@@ -115,30 +115,3 @@ It considers multiple real-world constraints such as:
   "room": "R101"
 }
 
-🔄 System Workflow
-Admin inputs teachers, subjects, rooms, and batches
-Data is stored in MongoDB
-Scheduling algorithm processes constraints
-Conflict-free timetable is generated
-Admin views and manages timetable
-
-
-📈 Future Enhancements
-AI-powered timetable optimization
-Genetic algorithm-based scheduling
-Mobile application support
-PDF/Excel export feature
-Multi-campus support
-
-📊 GitHub Stats
-
-Replace YOUR_GITHUB_USERNAME with your GitHub username
-
-👨‍💻 Author
-
-Pratham H. Shetty
-Final Year Engineering Student
-
-📄 License
-
-This project is for academic and educational purposes only.
