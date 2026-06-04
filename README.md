@@ -64,11 +64,9 @@ The system eliminates manual scheduling by intelligently handling constraints li
 
 ## 📊 GitHub Stats
 
-> Replace github.com/shettypratham1005-dev with your GitHub username
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shettypratham1005-dev&show_icons=true&theme=tokyonight)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=github.com/shettypratham1005-dev&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=github.com/shettypratham1005-dev&layout=compact&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shettypratham1005-dev&layout=compact&theme=tokyonight)
 
 ---
 
