@@ -2,12 +2,14 @@
 
 
 📌 Overview
+
 Schedulify is a web-based automatic timetable generation system designed for educational institutions.
 The system automates the timetable creation process by considering multiple real-world scheduling constraints such as teacher availability, subject allocation, room availability, workload limits, and class schedules.
 
 The main goal of this project is to reduce manual effort, eliminate scheduling conflicts, and improve the efficiency of timetable management.
 
 🎯 Objectives
+
 Automate timetable generation
 Minimize scheduling conflicts
 Reduce manual workload for administrators
@@ -16,7 +18,9 @@ Provide an easy-to-use interface for timetable management
 
 
 🚀 Features
+
 👨‍🏫 Management Modules
+
 Teacher Management
 Subject Management
 Classroom / Lab Management
@@ -24,6 +28,7 @@ Batch & Division Management
 
 
 ⚙️ Core System Features
+
 Automatic Timetable Generation
 Conflict Detection & Resolution
 Timetable Viewing & Management
@@ -32,17 +37,21 @@ User-Friendly Interface
 
 
 🛠️ Tech Stack
+
 🎨 Frontend
 React.js
 HTML5
 CSS3
 JavaScript
+
 ⚙️ Backend
 Node.js
 Express.js
+
 🗄️ Database
 MongoDB
 Mongoose
+
 🧰 Tools & Platforms
 MongoDB Compass
 VS Code
@@ -80,12 +89,14 @@ Git & GitHub
 
 
 🔒 Constraints Considered
+
 1️⃣ Hard Constraints
 No teacher overlap
 No classroom overlap
 One lecture per class per slot
 Teacher workload limits
 Room capacity constraints
+
 2️⃣ Soft Constraints
 Teacher preferences
 Balanced workload distribution
