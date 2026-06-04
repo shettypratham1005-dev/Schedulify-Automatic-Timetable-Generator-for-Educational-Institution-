@@ -1,8 +1,7 @@
 📅 Schedulify – Automatic Timetable Generator for Educational Institutions
+
 📌 Overview
-
 Schedulify is a web-based automatic timetable generation system designed for educational institutions. The system automates the timetable creation process by considering various scheduling constraints such as teacher availability, subject allocation, room availability, workload limits, and class schedules.
-
 The project aims to reduce manual effort, eliminate scheduling conflicts, and improve the efficiency of timetable management.
 
 🎯 Objectives
@@ -69,6 +68,8 @@ Timetable
   "subject": "S001",
   "room": "R101"
 }
+
+
 🔒 Constraints Considered
 1.Hard Constraints
 No teacher overlap.
@@ -76,7 +77,6 @@ No classroom overlap.
 One lecture per class per slot.
 Teacher workload limits.
 Room capacity constraints.
-
 2.Soft Constraints
 Teacher preferences.
 Balanced workload distribution.
@@ -89,6 +89,7 @@ Data is stored in MongoDB.
 Timetable generation algorithm processes constraints.
 Conflict-free timetable is generated.
 Timetable is displayed and can be managed by the administrator.
+
 ⚙️ Installation & Setup
 Clone Repository
 git clone <repository-url>
@@ -108,11 +109,10 @@ Faculty preference management.
 Timetable export to PDF/Excel.
 Mobile application support.
 Multi-campus timetable management.
-👨‍💻 Authors
 
+👨‍💻 Authors
 Pratham H. Shetty
 Major Project – Final Year Engineering
 
 📄 License
-
 This project is developed for academic and educational purposes.
