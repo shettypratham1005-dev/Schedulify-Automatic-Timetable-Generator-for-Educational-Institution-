@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty - Timetable Generator</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Timetable Generator</h2>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="/html/dashboard.html">Dashboard</a>
+            <a href="/html/departments.html">Departments</a>
+            <a href="/html/subjects.html">Subjects</a>
+            <a href="/html/faculty.html" class="active">Faculty</a>
+            <a href="/html/classrooms.html">Classrooms</a>
+            <a href="/html/batches.html">Batches</a>
+            <a href="/html/generate.html">Generate Timetable</a>
+            <a href="/html/view-timetable.html">View Timetable</a>
+            <a href="#" id="logoutBtn">Logout</a>
+        </nav>
+    </div>
+    
+    <div class="main-content">
+        <header class="top-header">
+            <h1>Manage Faculty</h1>
+        </header>
+        
+        <div class="content">
+            <div class="form-section">
+                <h2>Add New Faculty</h2>
+                <form id="facultyForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="facultyName">Faculty Name</label>
+                            <input type="text" id="facultyName" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="employeeId">Employee ID</label>
+                            <input type="text" id="employeeId" name="employeeId" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="facultyEmail">Email</label>
+                            <input type="email" id="facultyEmail" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="facultyPhone">Phone</label>
+                            <input type="text" id="facultyPhone" name="phone">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="facultyDept">Department</label>
+                            <select id="facultyDept" name="department" required>
+                                <option value="">Select Department</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="facultySubjects">Subjects (Hold Ctrl/Cmd to select multiple)</label>
+                            <select id="facultySubjects" name="subjects" multiple>
+                                <!-- Subjects will be loaded here -->
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Add Faculty</button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="list-section">
+                <h2>Existing Faculty</h2>
+                <table id="facultyTable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Employee ID</th>
+                            <th>Email</th>
+                            <th>Department</th>
+                            <th>Subjects</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Faculty will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/js/auth.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

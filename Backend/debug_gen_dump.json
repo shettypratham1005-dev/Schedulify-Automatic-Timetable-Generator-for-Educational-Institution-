@@ -1,0 +1,40 @@
+{
+  "totalGlobalT": 113,
+  "bePracticals": [
+    {
+      "day": "Wednesday",
+      "batch": "Batch C",
+      "batchId": "BE-Batch C",
+      "type": "Practical",
+      "sem": 8
+    },
+    {
+      "day": "Monday",
+      "batch": "Batch A",
+      "batchId": "BE-Batch A",
+      "type": "Practical",
+      "sem": 8
+    },
+    {
+      "day": "Wednesday",
+      "batch": "Batch D",
+      "batchId": "BE-Batch D",
+      "type": "Practical",
+      "sem": 8
+    },
+    {
+      "day": "Tuesday",
+      "batch": "Batch B",
+      "batchId": "BE-Batch B",
+      "type": "Practical",
+      "sem": 8
+    }
+  ],
+  "allBatches": [
+    "BE-ALL",
+    "BE-Batch C",
+    "BE-Batch A",
+    "BE-Batch D",
+    "BE-Batch B"
+  ]
+}

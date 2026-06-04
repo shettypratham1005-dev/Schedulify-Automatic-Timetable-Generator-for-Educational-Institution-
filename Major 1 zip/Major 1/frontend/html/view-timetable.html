@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Timetable - Timetable Generator</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Timetable Generator</h2>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="/html/dashboard.html">Dashboard</a>
+            <a href="/html/departments.html">Departments</a>
+            <a href="/html/subjects.html">Subjects</a>
+            <a href="/html/faculty.html">Faculty</a>
+            <a href="/html/classrooms.html">Classrooms</a>
+            <a href="/html/batches.html">Batches</a>
+            <a href="/html/generate.html">Generate Timetable</a>
+            <a href="/html/view-timetable.html" class="active">View Timetable</a>
+            <a href="#" id="logoutBtn">Logout</a>
+        </nav>
+    </div>
+    
+    <div class="main-content">
+        <header class="top-header">
+            <h1>View Timetables</h1>
+        </header>
+        
+        <div class="content">
+            <div class="form-section">
+                <h2>Select Timetable</h2>
+                <form id="viewForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="viewDept">Department</label>
+                            <select id="viewDept" name="department" required>
+                                <option value="">Select Department</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="viewYear">Year</label>
+                            <select id="viewYear" name="year" required>
+                                <option value="">Select Year</option>
+                                <option value="SE">SE</option>
+                                <option value="TE">TE</option>
+                                <option value="BE">BE</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>&nbsp;</label>
+                            <button type="submit" class="btn btn-primary">View Timetable</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="timetable-container" id="timetableContainer">
+                <div class="timetable-header">
+                    <h2 id="timetableTitle">Timetable</h2>
+                    <button id="downloadPdf" class="btn btn-primary">Download PDF</button>
+                </div>
+                <div id="timetableDisplay">
+                    <p class="no-data">Select department and year to view timetable</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/js/auth.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

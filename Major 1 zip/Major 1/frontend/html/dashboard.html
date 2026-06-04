@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Timetable Generator</title>
+
+    <!-- ✅ FIXED CSS PATH -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Timetable Generator</h2>
+        </div>
+
+        <!-- ✅ FIXED NAVIGATION LINKS -->
+        <nav class="sidebar-nav">
+            <a href="/html/dashboard.html" class="active">Dashboard</a>
+            <a href="/html/departments.html">Departments</a>
+            <a href="/html/subjects.html">Subjects</a>
+            <a href="/html/faculty.html">Faculty</a>
+            <a href="/html/classrooms.html">Classrooms</a>
+            <a href="/html/batches.html">Batches</a>
+            <a href="/html/generate.html">Generate Timetable</a>
+            <a href="/html/view-timetable.html">View Timetable</a>
+            <a href="#" id="logoutBtn">Logout</a>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <header class="top-header">
+            <h1>Dashboard</h1>
+            <div class="user-info">
+                <span>Welcome, Admin</span>
+            </div>
+        </header>
+
+        <div class="dashboard-content">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Departments</h3>
+                    <p class="stat-number" id="deptCount">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Subjects</h3>
+                    <p class="stat-number" id="subjectCount">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Faculty</h3>
+                    <p class="stat-number" id="facultyCount">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Timetables</h3>
+                    <p class="stat-number" id="timetableCount">0</p>
+                </div>
+            </div>
+
+            <div class="quick-actions">
+                <h2>Quick Actions</h2>
+                <div class="actions-grid">
+                    <a href="/html/departments.html" class="action-card">
+                        <h3>Manage Departments</h3>
+                        <p>Add or edit departments</p>
+                    </a>
+                    <a href="/html/generate.html" class="action-card">
+                        <h3>Generate Timetable</h3>
+                        <p>Create new timetable</p>
+                    </a>
+                    <a href="/html/view-timetable.html" class="action-card">
+                        <h3>View Timetables</h3>
+                        <p>View generated timetables</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="instructions">
+                <h2>Getting Started</h2>
+                <ol>
+                    <li>Add Departments (EXTC, VLSI)</li>
+                    <li>Add Subjects for each year (SE, TE, BE)</li>
+                    <li>Add Faculty members and assign subjects</li>
+                    <li>Add Classrooms (415, 416) and Labs (409, 411B, 407, 410A, 402)</li>
+                    <li>Add Batches for each year</li>
+                    <li>Generate Timetable</li>
+                    <li>Download PDF</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <!-- ✅ FIXED JS PATHS -->
+    <script src="/js/auth.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

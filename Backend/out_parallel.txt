@@ -1,0 +1,66 @@
+Parsed Practical: OCN Lab, sub id: 69cf4801524573dbf8431307, f id: 69cf4801524573dbf84312da, r id: 69cf4801524573dbf84312e2, allowed: Batch A,Batch B,Batch C
+bList: Batch A,Batch B,Batch C
+Checking Day Monday Slot 0, bName: Batch A, checking Batch: Batch A
+Checking Day Monday Slot 0, bName: Batch B, checking Batch: Batch B
+Checking Day Monday Slot 0, bName: Batch C, checking Batch: Batch C
+>> CAN PLACE on Monday at 0!
+  -> Pushed for Batch A
+  -> Pushed for Batch B
+  -> Pushed for Batch C
+GlobalT:
+[
+  {
+    day: 'Monday',
+    slotIdx: 0,
+    duration: 2,
+    subject: {
+      _id: new ObjectId('69cf4801524573dbf8431307'),
+      sub_id: 'S8_5',
+      name: 'OCN Lab',
+      type: 'Lab',
+      credits: 3,
+      className: 'BE',
+      semester: 8,
+      __v: 0
+    },
+    batch: 'Batch A',
+    type: 'Practical',
+    semester: 8
+  },
+  {
+    day: 'Monday',
+    slotIdx: 0,
+    duration: 2,
+    subject: {
+      _id: new ObjectId('69cf4801524573dbf8431307'),
+      sub_id: 'S8_5',
+      name: 'OCN Lab',
+      type: 'Lab',
+      credits: 3,
+      className: 'BE',
+      semester: 8,
+      __v: 0
+    },
+    batch: 'Batch B',
+    type: 'Practical',
+    semester: 8
+  },
+  {
+    day: 'Monday',
+    slotIdx: 0,
+    duration: 2,
+    subject: {
+      _id: new ObjectId('69cf4801524573dbf8431307'),
+      sub_id: 'S8_5',
+      name: 'OCN Lab',
+      type: 'Lab',
+      credits: 3,
+      className: 'BE',
+      semester: 8,
+      __v: 0
+    },
+    batch: 'Batch C',
+    type: 'Practical',
+    semester: 8
+  }
+]

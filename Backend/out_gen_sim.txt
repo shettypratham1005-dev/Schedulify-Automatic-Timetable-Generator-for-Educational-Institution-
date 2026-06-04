@@ -1,0 +1,6 @@
+[TEST] Sem 8 yr BE bList: [ 'Batch A', 'Batch B', 'Batch C' ]
+[TEST] pList length: 1
+[PUSHED] Lab for Batch A
+[PUSHED] Lab for Batch B
+[PUSHED] Lab for Batch C
+[TEST] globalT len: 3

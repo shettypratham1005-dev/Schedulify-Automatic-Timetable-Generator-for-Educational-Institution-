@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Timetable - Timetable Generator</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Timetable Generator</h2>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="/html/dashboard.html">Dashboard</a>
+            <a href="/html/departments.html">Departments</a>
+            <a href="/html/subjects.html">Subjects</a>
+            <a href="/html/faculty.html">Faculty</a>
+            <a href="/html/classrooms.html">Classrooms</a>
+            <a href="/html/batches.html">Batches</a>
+            <a href="/html/generate.html" class="active">Generate Timetable</a>
+            <a href="/html/view-timetable.html">View Timetable</a>
+            <a href="#" id="logoutBtn">Logout</a>
+        </nav>
+    </div>
+    
+    <div class="main-content">
+        <header class="top-header">
+            <h1>Generate Timetable</h1>
+        </header>
+        
+        <div class="content">
+            <div class="form-section">
+                <h2>Generate New Timetable</h2>
+                <form id="generateForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="genDept">Department</label>
+                            <select id="genDept" name="department" required>
+                                <option value="">Select Department</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="genYear">Year</label>
+                            <select id="genYear" name="year" required>
+                                <option value="">Select Year</option>
+                                <option value="SE">SE</option>
+                                <option value="TE">TE</option>
+                                <option value="BE">BE</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <!-- Configuration Section -->
+                    <div class="config-section">
+                        <h3>Timetable Configuration</h3>
+                        <p class="config-info">Configure the timing rules for this timetable. These settings will be saved and used during generation.</p>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="startTime">Start Time</label>
+                                <input type="time" id="startTime" name="startTime" value="08:15" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lectureDuration">Lecture Duration (minutes)</label>
+                                <input type="number" id="lectureDuration" name="lectureDuration" value="60" min="30" max="120" step="5" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="shortBreakDuration">Short Break Duration (minutes)</label>
+                                <input type="number" id="shortBreakDuration" name="shortBreakDuration" value="15" min="5" max="30" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="shortBreakAfterLectures">Short Break After (lectures)</label>
+                                <input type="number" id="shortBreakAfterLectures" name="shortBreakAfterLectures" value="2" min="1" max="4" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="lunchBreakDuration">Lunch Break Duration (minutes)</label>
+                                <input type="number" id="lunchBreakDuration" name="lunchBreakDuration" value="60" min="30" max="90" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lunchBreakAfterLectures">Lunch Break After (lectures)</label>
+                                <input type="number" id="lunchBreakAfterLectures" name="lunchBreakAfterLectures" value="4" min="3" max="6" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="maxFacultyLectures">Max Faculty Lectures Per Week</label>
+                                <input type="number" id="maxFacultyLectures" name="maxFacultyLectures" value="8" min="4" max="12" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Generate Timetable</button>
+                    </div>
+                </form>
+                <div id="generateMessage" class="message"></div>
+            </div>
+            
+            <div class="info-box" id="importantNotesBox">
+                <h3>Important Notes</h3>
+                <ul id="importantNotesList">
+                    <li>Lecture duration: 60 minutes</li>
+                    <li>Short break: 15 minutes after 2 lectures</li>
+                    <li>Lunch break: 60 minutes after 4 lectures</li>
+                    <li>Maximum faculty load per week: 8 lectures</li>
+                    <li>Working days: Monday–Friday</li>
+                </ul>
+            </div>
+            
+            <div class="prerequisites-section">
+                <h2>Prerequisites Checklist</h2>
+                <div id="prerequisitesList">
+                    <!-- Checklist will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/js/auth.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+✅ Timetable Model Loaded. Allowed Types: [ 'Lecture', 'Practical', 'Tutorial', 'Project' ]
+Connected to MongoDB -> Timetable
+
+--- BE (Semester 8) Friday ---
+08:15-10:15 | Sub: Major Project | Fac: Guide | Room: 403 | Batch: Batch A
+08:15-10:15 | Sub: Major Project | Fac: Guide | Room: 403 | Batch: Batch B
+08:15-10:15 | Sub: Major Project | Fac: Guide | Room: 403 | Batch: Batch C
+10:30-01:30 | Sub: Major Project | Fac: Guide | Room: 403 | Batch: Batch A
+10:30-01:30 | Sub: Major Project | Fac: Guide | Room: 403 | Batch: Batch B
+10:30-01:30 | Sub: Major Project | Fac: Guide | Room: 403 | Batch: Batch C
+02:30-04:30 | Sub: Major Project | Fac: Guide | Room: 403 | Batch: Batch A
+02:30-04:30 | Sub: Major Project | Fac: Guide | Room: 403 | Batch: Batch B
+02:30-04:30 | Sub: Major Project | Fac: Guide | Room: 403 | Batch: Batch C
+
+--- BE (Semester 8) OCN Labs Batches ---
+
+--- SE (Semester 4) Total Slots Scheduled: 53 ---

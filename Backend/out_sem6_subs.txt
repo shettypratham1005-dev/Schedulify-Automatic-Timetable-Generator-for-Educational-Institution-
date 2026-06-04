@@ -1,0 +1,12 @@
+
+--- TE (Semester 6) Subjects in Database ---
+EMA | Type: Theory
+CCN | Type: Theory
+IPMV | Type: Theory
+ANN & FL | Type: Theory
+DBMS | Type: Theory
+IOT | Type: Theory
+EMA Lab | Type: Lab
+CCN Lab | Type: Lab
+IPMV Lab | Type: Lab
+Skill Lab | Type: Lab

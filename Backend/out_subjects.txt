@@ -1,0 +1,8 @@
+
+--- BE (Semester 8) Subjects in Database ---
+OCN | Type: Theory
+NMT | Type: Theory
+WD | Type: Theory
+PM | Type: Theory
+EM | Type: Theory
+OCN Lab | Type: Lab

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classrooms - Timetable Generator</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Timetable Generator</h2>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="/html/dashboard.html">Dashboard</a>
+            <a href="/html/departments.html">Departments</a>
+            <a href="/html/subjects.html">Subjects</a>
+            <a href="/html/faculty.html">Faculty</a>
+            <a href="/html/classrooms.html" class="active">Classrooms</a>
+            <a href="/html/batches.html">Batches</a>
+            <a href="/html/generate.html">Generate Timetable</a>
+            <a href="/html/view-timetable.html">View Timetable</a>
+            <a href="#" id="logoutBtn">Logout</a>
+        </nav>
+    </div>
+    
+    <div class="main-content">
+        <header class="top-header">
+            <h1>Manage Classrooms & Labs</h1>
+        </header>
+        
+        <div class="content">
+            <div class="form-section">
+                <h2>Add New Room</h2>
+                <form id="classroomForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="roomNumber">Room Number</label>
+                            <input type="text" id="roomNumber" name="roomNumber" required placeholder="e.g., 415">
+                        </div>
+                        <div class="form-group">
+                            <label for="roomType">Room Type</label>
+                            <select id="roomType" name="type" required>
+                                <option value="classroom">Classroom</option>
+                                <option value="lab">Lab</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="capacity">Capacity</label>
+                            <input type="number" id="capacity" name="capacity" value="60" min="1">
+                        </div>
+                        <div class="form-group">
+                            <label for="isAvailable">Available</label>
+                            <select id="isAvailable" name="isAvailable">
+                                <option value="true">Yes</option>
+                                <option value="false">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Add Room</button>
+                        <button type="button" id="initDefaultRooms" class="btn btn-secondary">Initialize Default Rooms</button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="info-box">
+                <h3>Default Rooms Configuration</h3>
+                <p><strong>Classrooms:</strong> 415, 416</p>
+                <p><strong>Labs:</strong> 409, 411B, 407, 410A, 402</p>
+            </div>
+            
+            <div class="list-section">
+                <h2>Existing Rooms</h2>
+                <table id="classroomsTable">
+                    <thead>
+                        <tr>
+                            <th>Room Number</th>
+                            <th>Type</th>
+                            <th>Capacity</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Classrooms will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/js/auth.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

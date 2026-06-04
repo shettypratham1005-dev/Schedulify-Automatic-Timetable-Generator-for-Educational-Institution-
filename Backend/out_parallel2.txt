@@ -1,0 +1,115 @@
+Success: true
+globalT keys: 31
+[
+  {
+    day: 'Monday',
+    slotIdx: 0,
+    duration: 2,
+    subject: {
+      _id: new ObjectId('69cf4801524573dbf8431307'),
+      sub_id: 'S8_5',
+      name: 'OCN Lab',
+      type: 'Lab',
+      credits: 3,
+      className: 'BE',
+      semester: 8,
+      __v: 0
+    },
+    faculty: {
+      _id: new ObjectId('69cf4801524573dbf84312da'),
+      teacher_id: 'T_MRVG',
+      name: 'Mr.VG',
+      department: 'IT',
+      maxLectures: 24,
+      availableSlots: [],
+      classNames: [Array],
+      __v: 0
+    },
+    room: {
+      _id: new ObjectId('69cf4801524573dbf84312e2'),
+      room_no: '409',
+      capacity: 60,
+      type: 'Lecture',
+      classNames: [],
+      __v: 0
+    },
+    batch: 'Batch A',
+    batchId: 'BE-Batch A',
+    type: 'Practical',
+    semester: 8
+  },
+  {
+    day: 'Monday',
+    slotIdx: 0,
+    duration: 2,
+    subject: {
+      _id: new ObjectId('69cf4801524573dbf8431307'),
+      sub_id: 'S8_5',
+      name: 'OCN Lab',
+      type: 'Lab',
+      credits: 3,
+      className: 'BE',
+      semester: 8,
+      __v: 0
+    },
+    faculty: {
+      _id: new ObjectId('69cf4801524573dbf84312da'),
+      teacher_id: 'T_MRVG',
+      name: 'Mr.VG',
+      department: 'IT',
+      maxLectures: 24,
+      availableSlots: [],
+      classNames: [Array],
+      __v: 0
+    },
+    room: {
+      _id: new ObjectId('69cf4801524573dbf84312e2'),
+      room_no: '409',
+      capacity: 60,
+      type: 'Lecture',
+      classNames: [],
+      __v: 0
+    },
+    batch: 'Batch B',
+    batchId: 'BE-Batch B',
+    type: 'Practical',
+    semester: 8
+  },
+  {
+    day: 'Monday',
+    slotIdx: 0,
+    duration: 2,
+    subject: {
+      _id: new ObjectId('69cf4801524573dbf8431307'),
+      sub_id: 'S8_5',
+      name: 'OCN Lab',
+      type: 'Lab',
+      credits: 3,
+      className: 'BE',
+      semester: 8,
+      __v: 0
+    },
+    faculty: {
+      _id: new ObjectId('69cf4801524573dbf84312da'),
+      teacher_id: 'T_MRVG',
+      name: 'Mr.VG',
+      department: 'IT',
+      maxLectures: 24,
+      availableSlots: [],
+      classNames: [Array],
+      __v: 0
+    },
+    room: {
+      _id: new ObjectId('69cf4801524573dbf84312e2'),
+      room_no: '409',
+      capacity: 60,
+      type: 'Lecture',
+      classNames: [],
+      __v: 0
+    },
+    batch: 'Batch C',
+    batchId: 'BE-Batch C',
+    type: 'Practical',
+    semester: 8
+  }
+]

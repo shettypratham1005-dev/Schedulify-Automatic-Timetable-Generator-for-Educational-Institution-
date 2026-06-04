@@ -1,0 +1,82 @@
+### Test POST new teacher
+POST http://localhost:5000/api/teachers
+Content-Type: application/json
+
+{
+  "teacher_id": "T001",
+  "name": "Prof. Sharma",
+  "subject": "DCOM",
+  "workload": 7,
+  "maxLectures": 12,
+  "availableSlots": ["Mon-9AM", "Tue-11AM"]
+}
+
+### Test POST new subjects
+POST http://localhost:5000/api/subjects
+Content-Type: application/json
+
+{
+  "sub_id": "S001",
+  "name": "Digital Communication",
+  "type": "Theory",
+  "credits": 4
+}
+
+### Test POST new room
+POST http://localhost:5000/api/rooms
+Content-Type: application/json
+
+{
+  "room_id": "R101",
+  "name": "Room 415",
+  "capacity": 60,
+  "type": "Lecture"
+}
+
+### Test POST new batch
+POST http://localhost:5000/api/batches
+Content-Type: application/json
+
+{
+  "batch_id": "TE-A",
+  "name": "EXTC-TE-A",
+  "year": "TE",
+  "division": "A",
+  "studentsCount": 20
+}
+
+### Test POST new timetable
+POST http://localhost:5000/api/timetables
+Content-Type: application/json
+
+{
+  "timetable_id": "TT001",
+  "batch": "B001",
+  "day": "Monday",
+  "slots": [
+    {
+      "time": "9AM-10AM",
+      "subject": "S001",
+      "teacher": "T001",
+      "room": "R101"
+    },
+    {
+      "time": "10AM-11AM",
+      "subject": "S001",
+      "teacher": "T001",
+      "room": "R101"
+    }
+  ]
+}
+
+### Run Genetic Algorithm Test
+POST http://localhost:5000/api/run-ga
+Content-Type: application/json
+
+{
+  "subjectLoads": {
+    "S001": { "lectures": 4, "practicals": 3, "tutorials": 1 },
+    "S002": { "lectures": 3, "practicals": 2 },
+    "S003": { "lectures": 3 }
+  }
+}

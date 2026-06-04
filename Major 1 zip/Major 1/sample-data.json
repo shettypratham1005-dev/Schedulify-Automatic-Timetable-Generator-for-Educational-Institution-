@@ -1,0 +1,41 @@
+{
+  "departments": [
+    { "name": "EXTC", "fullName": "Electronics and Telecommunication" },
+    { "name": "VLSI", "fullName": "Very Large Scale Integration" }
+  ],
+  "subjects": [
+    { "name": "Digital Electronics", "code": "DE301", "year": "SE", "isLab": false, "lecturesPerWeek": 4 },
+    { "name": "Microprocessors", "code": "MP302", "year": "SE", "isLab": true, "lecturesPerWeek": 3 },
+    { "name": "Signal Processing", "code": "SP401", "year": "TE", "isLab": false, "lecturesPerWeek": 4 },
+    { "name": "Communication Systems", "code": "CS402", "year": "TE", "isLab": true, "lecturesPerWeek": 3 },
+    { "name": "VLSI Design", "code": "VLSI501", "year": "BE", "isLab": false, "lecturesPerWeek": 4 },
+    { "name": "Embedded Systems", "code": "ES502", "year": "BE", "isLab": true, "lecturesPerWeek": 3 }
+  ],
+  "faculty": [
+    { "name": "Dr. Smith", "employeeId": "FAC001", "email": "smith@college.edu", "phone": "9876543210" },
+    { "name": "Prof. Johnson", "employeeId": "FAC002", "email": "johnson@college.edu", "phone": "9876543211" },
+    { "name": "Dr. Williams", "employeeId": "FAC003", "email": "williams@college.edu", "phone": "9876543212" },
+    { "name": "Prof. Brown", "employeeId": "FAC004", "email": "brown@college.edu", "phone": "9876543213" },
+    { "name": "Dr. Davis", "employeeId": "FAC005", "email": "davis@college.edu", "phone": "9876543214" }
+  ],
+  "classrooms": [
+    { "roomNumber": "415", "type": "classroom", "capacity": 60 },
+    { "roomNumber": "416", "type": "classroom", "capacity": 60 },
+    { "roomNumber": "409", "type": "lab", "capacity": 30 },
+    { "roomNumber": "411B", "type": "lab", "capacity": 30 },
+    { "roomNumber": "407", "type": "lab", "capacity": 30 },
+    { "roomNumber": "410A", "type": "lab", "capacity": 30 },
+    { "roomNumber": "402", "type": "lab", "capacity": 30 }
+  ],
+  "batches": [
+    { "name": "SE-EXTC-A", "year": "SE" },
+    { "name": "SE-EXTC-B", "year": "SE" },
+    { "name": "TE-EXTC-A", "year": "TE" },
+    { "name": "TE-EXTC-B", "year": "TE" },
+    { "name": "BE-EXTC-A", "year": "BE" },
+    { "name": "BE-EXTC-B", "year": "BE" },
+    { "name": "SE-VLSI-A", "year": "SE" },
+    { "name": "TE-VLSI-A", "year": "TE" },
+    { "name": "BE-VLSI-A", "year": "BE" }
+  ]
+}

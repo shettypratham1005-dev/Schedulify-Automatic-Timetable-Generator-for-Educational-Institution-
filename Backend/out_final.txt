@@ -1,0 +1,43 @@
+✅ Timetable Model Loaded. Allowed Types: [ 'Lecture', 'Practical', 'Tutorial', 'Project' ]
+
+--- BE (Semester 8) Total Entries: 40 ---
+Monday 11:30 | Type: Lecture | Sub: NMT | Fac: Ms.NG | Batch: ALL
+Wednesday 11:30 | Type: Lecture | Sub: NMT | Fac: Ms.NG | Batch: ALL
+Tuesday 08:15 | Type: Lecture | Sub: NMT | Fac: Ms.NG | Batch: ALL
+Tuesday 02:30 | Type: Lecture | Sub: PM | Fac: Mr.VP | Batch: ALL
+Wednesday 08:15 | Type: Lecture | Sub: PM | Fac: Mr.VP | Batch: ALL
+Wednesday 09:15 | Type: Lecture | Sub: OCN | Fac: Mr.VG | Batch: ALL
+Monday 08:15 | Type: Lecture | Sub: PM | Fac: Mr.VP | Batch: ALL
+Tuesday 09:15 | Type: Lecture | Sub: WD | Fac: Mr.SP | Batch: ALL
+Tuesday 10:30 | Type: Lecture | Sub: OCN | Fac: Mr.VG | Batch: ALL
+Wednesday 02:30 | Type: Lecture | Sub: WD | Fac: Mr.SP | Batch: ALL
+Monday 03:30 | Type: Lecture | Sub: OCN | Fac: Mr.VG | Batch: ALL
+Monday 02:30 | Type: Lecture | Sub: WD | Fac: Mr.SP | Batch: ALL
+Tuesday 03:30 | Type: Lecture | Sub: EM | Fac: Shared | Batch: ALL
+Wednesday 12:30 | Type: Lecture | Sub: EM | Fac: Shared | Batch: ALL
+Monday 12:30 | Type: Lecture | Sub: EM | Fac: Shared | Batch: ALL
+Monday 09:15 | Type: Lecture | Sub: OCN | Fac: Mr.VG | Batch: Batch A
+Monday 10:30 | Type: Lecture | Sub: WD | Fac: Mr.SP | Batch: Batch A
+Tuesday 11:30 | Type: Lecture | Sub: WD | Fac: Mr.SP | Batch: Batch A
+Tuesday 12:30 | Type: Lecture | Sub: OCN | Fac: Mr.VG | Batch: Batch A
+Wednesday 10:30 | Type: Lecture | Sub: OCN | Fac: Mr.VG | Batch: Batch A
+Wednesday 03:30 | Type: Lecture | Sub: OCN | Fac: Mr.VG | Batch: Batch A
+Monday 09:15 | Type: Lecture | Sub: PM | Fac: Mr.VP | Batch: Batch B
+Monday 10:30 | Type: Lecture | Sub: NMT | Fac: Ms.NG | Batch: Batch B
+Tuesday 11:30 | Type: Lecture | Sub: OCN | Fac: Mr.VG | Batch: Batch B
+Tuesday 12:30 | Type: Lecture | Sub: EM | Fac: Shared | Batch: Batch B
+Wednesday 10:30 | Type: Lecture | Sub: WD | Fac: Mr.SP | Batch: Batch B
+Wednesday 03:30 | Type: Lecture | Sub: WD | Fac: Mr.SP | Batch: Batch B
+Monday 09:15 | Type: Lecture | Sub: WD | Fac: Mr.SP | Batch: Batch C
+Monday 10:30 | Type: Lecture | Sub: EM | Fac: Shared | Batch: Batch C
+Tuesday 11:30 | Type: Lecture | Sub: EM | Fac: Shared | Batch: Batch C
+Tuesday 12:30 | Type: Lecture | Sub: PM | Fac: Mr.VP | Batch: Batch C
+Wednesday 10:30 | Type: Lecture | Sub: PM | Fac: Mr.VP | Batch: Batch C
+Wednesday 03:30 | Type: Lecture | Sub: EM | Fac: Shared | Batch: Batch C
+Thursday 08:15 | Type: Project | Sub: Honors | Fac: Shared | Batch: ALL
+Thursday 09:15 | Type: Project | Sub: PAT Activity | Fac: Shared | Batch: ALL
+Thursday 10:30 | Type: Project | Sub: PAT Activity | Fac: Shared | Batch: ALL
+Thursday 02:30 | Type: Project | Sub: PAT Activity | Fac: Shared | Batch: ALL
+Friday 08:15 | Type: Project | Sub: Major Project | Fac: Guide | Batch: ALL
+Friday 10:30 | Type: Project | Sub: Major Project | Fac: Guide | Batch: ALL
+Friday 02:30 | Type: Project | Sub: Major Project | Fac: Guide | Batch: ALL

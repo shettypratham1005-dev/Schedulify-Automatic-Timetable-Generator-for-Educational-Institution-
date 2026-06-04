@@ -1,0 +1,50 @@
+/* 🌟 Glass Card */
+.premium-card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+/* 🌈 Header */
+.premium-header {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border-radius: 15px;
+}
+
+/* 🎯 Animated cells */
+.timetable-cell {
+  transition: all 0.3s ease;
+}
+
+.timetable-cell:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* 🎨 Legend */
+.legend-box {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+/* ✏️ Edit */
+.edit-btn {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+/* 🗑️ Delete */
+.delete-btn {
+  background: linear-gradient(135deg, #ff6a6a, #ff0000);
+  color: white;
+  border-radius: 8px;
+  border: none;
+}

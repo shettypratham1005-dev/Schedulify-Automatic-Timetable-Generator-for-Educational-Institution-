@@ -1,0 +1,23 @@
+### Add Room
+POST http://localhost:5000/api/rooms
+Content-Type: application/json
+
+{
+  "room_id": "R101",
+  "room_no": "415",
+  "capacity": 60,
+  "type": "Classroom",
+}
+
+POST http:/ /localhost:5000/api/timetables
+Content-Type: application/json
+
+{
+  "timetable_id": "TT001",
+  "day": "Monday",
+  "slot": "9AM-10AM",
+  "teacher_id": "T001",
+  "sub_id": "S001",
+  "room_id": "R101",
+  "batch_id": "B001"
+}

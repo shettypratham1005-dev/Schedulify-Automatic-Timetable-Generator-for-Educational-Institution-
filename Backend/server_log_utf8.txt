@@ -1,0 +1,40 @@
+﻿Γ£à Batch routes loaded
+Γ£à Timetable Model Loaded. Allowed Types: [ 'Lecture', 'Practical', 'Tutorial', 'Project' ]
+node : (node:17320) 
+[MONGODB DRIVER] Warning: 
+useNewUrlParser is a 
+deprecated option: 
+useNewUrlParser has no 
+effect since Node.js 
+Driver version 4.0.0 and 
+will be removed in the 
+next major version
+At line:1 char:1
++ node server.js 2>&1 | 
+Tee-Object -FilePath 
+server_log.txt
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: ((  
+  node:17320) [M...t ma   
+ jor version:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+(Use `node 
+--trace-warnings ...` to 
+show where the warning 
+was created)
+(node:17320) [MONGODB 
+DRIVER] Warning: 
+useUnifiedTopology is a 
+deprecated option: 
+useUnifiedTopology has no 
+effect since Node.js 
+Driver version 4.0.0 and 
+will be removed in the 
+next major version
+Server running on http://localhost:5000
+Γ£à MongoDB connected successfully

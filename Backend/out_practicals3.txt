@@ -1,0 +1,31 @@
+✅ Timetable Model Loaded. Allowed Types: [ 'Lecture', 'Practical', 'Tutorial', 'Project' ]
+
+--- Total Practical Entries: 28 ---
+Sem: 6 | Day: Wednesday | Batch: Batch A
+Sem: 6 | Day: Wednesday | Batch: Batch B
+Sem: 6 | Day: Wednesday | Batch: Batch C
+Sem: 6 | Day: Wednesday | Batch: Batch D
+Sem: 4 | Day: Monday | Batch: Batch A
+Sem: 4 | Day: Monday | Batch: Batch B
+Sem: 4 | Day: Monday | Batch: Batch C
+Sem: 4 | Day: Thursday | Batch: Batch A
+Sem: 4 | Day: Thursday | Batch: Batch B
+Sem: 4 | Day: Thursday | Batch: Batch C
+Sem: 6 | Day: Friday | Batch: Batch A
+Sem: 6 | Day: Friday | Batch: Batch B
+Sem: 6 | Day: Friday | Batch: Batch C
+Sem: 6 | Day: Friday | Batch: Batch D
+Sem: 4 | Day: Wednesday | Batch: Batch A
+Sem: 4 | Day: Wednesday | Batch: Batch B
+Sem: 4 | Day: Wednesday | Batch: Batch C
+Sem: 4 | Day: Tuesday | Batch: Batch A
+Sem: 4 | Day: Tuesday | Batch: Batch B
+Sem: 4 | Day: Tuesday | Batch: Batch C
+Sem: 6 | Day: Thursday | Batch: Batch A
+Sem: 6 | Day: Thursday | Batch: Batch B
+Sem: 6 | Day: Thursday | Batch: Batch C
+Sem: 6 | Day: Thursday | Batch: Batch D
+Sem: 6 | Day: Monday | Batch: Batch A
+Sem: 6 | Day: Monday | Batch: Batch B
+Sem: 6 | Day: Monday | Batch: Batch C
+Sem: 6 | Day: Monday | Batch: Batch D
