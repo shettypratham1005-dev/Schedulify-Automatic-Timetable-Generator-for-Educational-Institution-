@@ -34,9 +34,9 @@ const Login = () => {
     setLoading(true);
 
     const url = isLogin
-      ? "http://localhost:5000/api/auth/login"
-      : "http://localhost:5000/api/auth/signup";
-
+  ? `${process.env.REACT_APP_API_URL}/api/auth/login`
+  : `${process.env.REACT_APP_API_URL}/api/auth/signup`;
+  
     const payload = isLogin ? { email, password } : { name, email, password };
 
     try {
@@ -237,4 +237,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Login;
